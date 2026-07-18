@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TD - The Designer BD</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#d4af37;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero span{
+color:#d4af37;
+}
+
+.hero p{
+max-width:600px;
+margin:20px auto;
+font-size:18px;
+color:#ccc;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#d4af37;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#161616;
+padding:30px;
+border-radius:10px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#d4af37;
+}
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.portfolio-item{
+height:220px;
+background:#1e1e1e;
+border-radius:10px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:20px;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">TD</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>TD - <span>The Designer BD</span></h1>
+
+<p>
+Creative Graphic Designer & Brand Identity Specialist.
+Transforming Ideas Into Powerful Visual Designs.
+</p>
+
+<a href="#portfolio" class="btn">View Portfolio</a>
+</section>
+
+<section id="services">
+<h2 class="section-title">My Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Logo Design</h3>
+<p>Modern and Professional Logo Design.</p>
+</div>
+
+<div class="card">
+<h3>Social Media Design</h3>
+<p>Facebook & Instagram Creative Designs.</p>
+</div>
+
+<div class="card">
+<h3>Print Design</h3>
+<p>Professional Print Materials Design.</p>
+</div>
+
+<div class="card">
+<h3>Poster Design</h3>
+<p>Creative Poster & Advertisement Design.</p>
+</div>
+
+<div class="card">
+<h3>Business Card Design</h3>
+<p>Modern Corporate Identity Design.</p>
+</div>
+
+<div class="card">
+<h3>Banner Design</h3>
+<p>High Quality Marketing Banner Design.</p>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio">
+<h2 class="section-title">Portfolio</h2>
+
+<div class="portfolio">
+
+<div class="portfolio-item">Logo Design</div>
+
+<div class="portfolio-item">Poster Design</div>
+
+<div class="portfolio-item">Business Card</div>
+
+<div class="portfolio-item">Banner Design</div>
+
+<div class="portfolio-item">Social Media Design</div>
+
+<div class="portfolio-item">Print Design</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2 class="section-title">Contact Me</h2>
+
+<p>WhatsApp: +8801XXXXXXXXX</p>
+<p>Email: your@email.com</p>
+<p>Facebook: TD - The Designer BD</p>
+
+<br>
+
+<a href="#" class="btn">Hire Me</a>
+
+</section>
+
+<footer>
+© 2026 TD - The Designer BD | All Rights Reserved
+</footer>
+
+</body>
+  </html>
